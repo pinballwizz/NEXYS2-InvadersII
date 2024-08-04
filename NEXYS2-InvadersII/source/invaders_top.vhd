@@ -261,8 +261,7 @@ begin
 		when "00001" => IB <= rom_data_1;
 		when "00010" => IB <= rom_data_2;
 		when "00011" => IB <= rom_data_3;
-		when "01000" => IB <= rom_data_4;
-   	when "01010" => IB <= rom_data_4;
+	   	when "01010" => IB <= rom_data_4;
 		when "01011" => IB <= rom_data_5;
 		when others => null;
 	  end case;
